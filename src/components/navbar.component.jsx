@@ -18,9 +18,9 @@ const Navbar = () => {
   }
 
   const handleBlur=()=>{
-    // setTimeout(()=>{
-    //   setUserNavPanel(false); 
-    // })
+    setTimeout(()=>{
+      setUserNavPanel(false); 
+    },200)
   }
    const handleSearch = (e) => {
      let query = e.target.value;
